@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--<meta charset="GB2312">-->
+    <meta charset="utf-8">
+    <title>NetApp</title>
+    <base target="_blank">
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?f0aeb50bf3149114cd630dc6ba4a172b";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family:\5FAE\8F6F\96C5\9ED1; 
+        }
+        .wrap{
+            width: 750px;
+            margin: 0 auto;
+        }
+        .header{
+            width: 1200px;
+            height: 324px;
+            background: url("images/banner.jpg")no-repeat center;
+            font-size: 0;
+            display: block;
+            background-size: contain;
+        }
+        .ctn{
+            padding-left: 20px;
+            box-sizing: border-box;
+            padding-bottom: 150px;
+        }
+        .ctn h3{
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .ctn p{
+            margin:10px 0;
+        }
+    </style>
+</head>
+<body>
+<div class="header wrap"></div>
+<div class="ctn wrap">
+   <h3>专区内容链接</h3>
+    <p>超大规模私有云助力全球第一大卡组织 --- 中国银联迎接未来挑战</p>
+    <a onclick="_hmt.push(['_trackEvent', '白皮书下载', 'click', '超大规模私有云助力全球第一大卡组织 --- 中国银联迎接未来挑战'])" href="http://www.chinabyte.com/uploadImages/2017/09/20170915113917137.pdf">http://www.chinabyte.com/uploadImages/2017/09/20170915113917137.pdf</a>
+    <p>NetApp 全闪存阵列助力拍拍贷应对网贷市场新挑战</p>
+    <a onclick="_hmt.push(['_trackEvent', '白皮书下载', 'click', 'NetApp 全闪存阵列助力拍拍贷应对网贷市场新挑战'])" href="http://www.chinabyte.com/uploadImages/2017/12/20171226141249837001.pdf">http://www.chinabyte.com/uploadImages/2017/12/20171226141249837001.pdf</a>
+    <p>NetApp 携手中国平安打造互联网金融新未来</p>
+    <a onclick="_hmt.push(['_trackEvent', '白皮书下载', 'click', 'NetApp 携手中国平安打造互联网金融新未来'])" href="http://www.chinabyte.com/uploadImages/2017/12/20171226141251624002.pdf">http://www.chinabyte.com/uploadImages/2017/12/20171226141251624002.pdf</a>
+    <p>上海外服云利用闪存加快新HR服务的上市速度</p>
+    <a onclick="_hmt.push(['_trackEvent', '白皮书下载', 'click', '上海外服云利用闪存加快新HR服务的上市速度'])" href="http://www.chinabyte.com/uploadImages/2017/12/20171226141254899003.pdf">http://www.chinabyte.com/uploadImages/2017/12/20171226141254899003.pdf</a>
+    <p>世纪互联利用 NetApp 解决方案，实现混合云数据管理服务突破性创新</p>
+    <a onclick="_hmt.push(['_trackEvent', '白皮书下载', 'click', '世纪互联利用 NetApp 解决方案，实现混合云数据管理服务突破性创新'])" href="http://www.chinabyte.com/uploadImages/2017/12/20171226134334808.pdf">http://www.chinabyte.com/uploadImages/2017/12/20171226134334808.pdf</a>
+    <p>同样做IDC，可你看看人家天楚云</p>
+    <a onclick="_hmt.push(['_trackEvent', '白皮书下载', 'click', '同样做IDC，可你看看人家天楚云'])" href="http://cloud.chinabyte.com/486/14394986.shtml">同样做IDC，可你看看人家天楚云</a>
+
+   
+
+</div>
+</body>

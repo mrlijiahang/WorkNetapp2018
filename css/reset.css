@@ -1,0 +1,162 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    overflow-x: hidden;
+    font-family: "Microsoft YaHei";
+}
+
+a {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+a:active {
+    text-decoration: none;
+    outline: none;
+}
+
+a,
+body,
+header,
+nav,
+section,
+article,
+footer,
+aside,
+div,
+em,
+font,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+html,
+iframe,
+img,
+li,
+menu,
+object,
+ol,
+p,
+pre,
+span,
+strong,
+thead,
+u,
+ul {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+b,
+strong {
+    font-weight: normal;
+}
+
+img {
+    /*display: block;*/
+    border: none;
+    outline: none;
+    /*width: 100%;*/
+    vertical-align: middle;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    word-wrap: break-word;
+}
+
+tr,
+th,
+td,
+caption {
+    font-weight: normal;
+    text-align: left;
+    border-spacing: 0;
+    padding: 0px;
+    margin: 0px;
+}
+
+input {
+    outline: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix:before, .clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Microsoft YaHei';
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+

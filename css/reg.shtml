@@ -1,0 +1,293 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="GB2312">
+  
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="http://www.chinabyte.com/w/dy/js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="http://reg.chinabyte.com/js/udb/dictionary_data.js"></script>
+    <script type="text/javascript" src="http://reg.chinabyte.com/js/udb/dictionary.js"></script>
+    <script type="text/javascript" src="js/validator.js"></script>
+    <script type="text/javascript" src="http://reg.chinabyte.com/js/commonUtils.js"></script>
+    <script type="text/javascript" src="http://reg.chinabyte.com/js/ppuser20140404.js"></script>
+    <title>NetApp</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .yewu{
+            display: none;
+        }
+        body{
+            margin: 0;
+        }
+    </style>
+</head>
+<body style="background: #959595;">
+<div class="wrap">
+    <form class="from" method="post" name="form1" action="http://reg.chinabyte.com/activity/register.do">
+        <input type="hidden" name="name" value="ciscoNetApp">
+        <input type="hidden" name="url" value="http://www.chinabyte.com/w/n/qcw/netapp/edm/reg.shtml">
+        <input type="hidden" name="backUrl" value="http://www.chinabyte.com/w/n/qcw/netapp/edm/success.shtml">
+        <input type="hidden" name="udbUser.tags" value="ciscoNetApp">
+        <input type="hidden" name="udbUser.source" id="udbUser_source" value="">
+        <input type="hidden" name="seq_source" value="100">
+        <!--头图-->
+        <table width="750" border="0" align="center" cellpadding="0" cellspacing="0"
+               style="color: #000; background-color: #fff;font-size: 0" class="regtab">
+            <tr>
+                <td colspan="2">
+                    <img src="images/banner2.jpg" alt="" width="750"height='150'>
+                </td>
+            </tr>
+        </table>
+        <!--表单-->
+        <table width="750" border="0" cellspacing="0" cellpadding="0" align="center" class="regtab"
+               style="background:#ffffff;padding-top: 20px">
+            <!--1.电子邮件-->
+            <tr>
+                <td height="36" class="t-tit" colspan="2" style="padding-left: 176px">
+                    <label><span class="red">* </span>电子邮件：</label>
+                    <input type="hidden" name="seq_email" value="1"/>
+                    <input type="text" id="email_id" name="udbUser.email" class="input-text" value="" datatype="Email"
+                           msg="电子邮件格式不正确" style="text-indent: 3px"/>
+                </td>
+            </tr>
+            <!--2.姓名-->
+            <tr>
+                <td height="36" class="t-tit" colspan="2">
+                    <label><span class="red">* </span>姓名：</label>
+                    <input type="hidden" name="seq_name" value="2"/>
+                    <input type="text" name="udbUser.name" value="" dataType="Require" msg="请填写您的姓名" class="input-text"
+                           style="text-indent: 3px"/>
+                </td>
+            </tr>
+            <!--3.公司名称-->
+            <tr>
+                <td height="36" class="t-tit" colspan="2" style="padding-left: 176px">
+                    <label><span class="red">* </span>公司名称：</label>
+                    <input type="hidden" name="seq_company" value="3"/>
+                    <input type="text" name="udbUser.company" dataType="Require" msg="请输入公司名称" class="input-text"
+                           style="text-indent: 3px"/>
+                </td>
+            </tr>
+            <!--4.手机-->
+            <tr>
+                <td width="50%" height="36" class="t-tit">
+                    <label><span class="red">* </span>手机：</label>
+                    <input type="hidden" name="seq_mobilephone1" value="4"/>
+                    <input type="text" maxlength="50" name="udbUser.mobilephone1" value="" dataType="Mobile"
+                           msg="手机格式不正确" class="input-text"/>
+                </td>
+
+            </tr>
+            <!--5.部门-->
+            <tr>
+                <td height="36" class="t-tit" colspan="2">
+                    <label><span class="red">* </span>部门：</label>
+                    <input type="hidden" name="seq_bm" value="5">
+                    <input type="hidden" name="title_bm" value="部门"/>
+                    <select class="input-text" id="field_bm" name='field_bm' dataType="Require" msg="请选择您的部门"
+                            style="height: 24px;" >
+                        <option selected="selected" value="">请选择</option>
+                        <option>管理层</option>
+                        <option>IT管理</option>
+                        <option> 研发</option>
+                        <option>教育培训</option>
+                        <option>咨询服务</option>
+                        <option>财务</option>
+                        <option> 人力资源</option>
+                        <option>客户服务</option>
+                        <option>法务</option>
+                        <option>市场销售</option>
+                        <option>采购</option>
+                    </select>
+                </td>
+            </tr>
+            <!--6.职位-->
+            <tr>
+                <td height="36" class="t-tit" colspan="2" >
+                    <label><span class="red">* </span>职位：</label>
+                    <input type="hidden" name="seq_zw" value="6">
+                    <input type="hidden" name="title_zw" value="职位"/>
+                    <select class="input-text" id="field_zw" name='field_zw' dataType="Require"
+                            msg="请选择您的职位" style="height: 24px;">
+                        <option selected="selected" value="">请选择</option>
+                        <option value="高层管理者" >高层管理者</option>
+                        <option value="CIO" >CIO</option>
+                        <option value="IT总监" >IT总监</option>
+                        <option value="IT主管，主任" >IT主管，主任</option>
+                        <option value="IT经理" >IT经理</option>
+                        <option value="职员，专员" >职员，专员</option>
+                    </select>
+                </td>
+            </tr>
+            <!--7.公司规模-->
+            <tr>
+                <td height="36" class="t-tit" colspan="2" style=" padding-left: 176px;">
+                    <label><span class="red">* </span>公司规模：</label>
+                    <input type="hidden" name="seq_gm" value="7">
+                    <input type="hidden" name="title_gm" value="公司规模"/>
+                    <select class="input-text" id="field_gm" name='field_gm' dataType="Require"
+                            msg="请选择您的公司规模" style="height: 24px;">
+                        <option selected="selected" value="">请选择</option>
+                        <option>500名以下员工</option>
+                        <option>500-1000名员工</option>
+                        <option>1000-5000名员工</option>
+                        <option>5000-10000名员工</option>
+                        <option>10000名以上员工</option>
+                    </select>
+                </td>
+            </tr>
+            <!--8.行业-->
+            <tr>
+                <td height="36" class="t-tit" colspan="2">
+                    <label><span class="red">* </span>行业：</label>
+                    <input type="hidden" name="seq_hy" value="8">
+                    <input type="hidden" name="title_hy" value="行业"/>
+                    <select class="input-text" id="field_hy" name='field_hy' dataType="Require" msg="请选择行业"
+                            style="height: 24px;">
+                        <option selected="selected" value="">请选择</option>
+                        <option>制造业</option>
+                        <option>汽车</option>
+                        <option>零售</option>
+                        <option>金融保险</option>
+                        <option>能源</option>
+                        <option>医疗</option>
+                        <option>化学制药</option>
+                        <option>交通运输</option>
+                        <option>政府</option>
+                        <option>教育</option>
+                        <option>建筑工程</option>
+                        <option>电信</option>
+                        <option>休闲娱乐</option>
+                        <option>科技</option>
+                        <option>公共事业</option>
+                        <option>其他</option>
+                    </select>
+                </td>
+            </tr>
+            <!--9.省份-->
+            <tr>
+                <td height="36" class="t-tit" colspan="2">
+                    <label><span class="red">* </span>省份：</label>
+                    <input type="hidden" name="seq_province" value="9">
+                    <select class="udb_dictionary input-text" name="udbUser.province"
+                            param="{'dicname':'province','child':{'dicname':'city'}}"  dataType="Compare" operator="GreaterThan" to=1 msg="请选择您所在的省" style="height: 24px;"></select>
+                </td>
+            </tr>
+            <!--10.城市-->
+            <tr>
+                <td height="36" class="t-tit" colspan="2">
+                    <label><span class="red">* </span>城市：</label>
+                    <input type="hidden" name="seq_gj" value="0">
+                    <input type="hidden" name="title_gj" value="国家"/>
+                    <select class="udb_dictionary input-text" name="udbUser.city"
+                            param="{'dicname':'city'}"  dataType="Compare" operator="GreaterThan" to=1 msg="请选择您所在的市" style="height: 24px;"></select>
+                </td>
+            </tr>
+
+            <!--验证-->
+            <tr>
+                <td height="60" class="t-tit" colspan="2">
+                    <label><span class="red">* </span>验证：</label>
+                    <input type="text" class="input-text" name="authcode" style="width: 150px">
+                    <img src="http://reg.chinabyte.com/jsp/common/code.jsp " style="vertical-align: middle" width="79"
+                         height="29" id="" title="点击换一张"
+                         onclick="javascript:this.src='http://reg.chinabyte.com/jsp/common/code.jsp ';">
+                    <span id="codePrompt"></span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" height="70" align="center" valign="top">
+                    <input type="submit" value="提交" class="sub btn_t1"/>
+                </td>
+            </tr>
+            <tr height="100">
+                <td colspan="2">
+
+                </td>
+            </tr>
+        </table>
+
+
+    </form>
+
+    <div style="display: none;  bottom: 0px; right: 0px" id=__topmessage class=floatMessage>
+  <span style="padding-bottom: 0px; padding-left: 10px; padding-right: 0px; float: left; padding-top: 5px">
+  <font style="font-size:14px; color:#fff; font-weight:500">错误提示：</font></span>
+        <span style="padding-bottom: 0px; padding-left: 0px;  float: right; padding-top: 5px">
+  <a href="javascript:Validator.closeenetMengCms();" target="_self" style="color:#fff">关闭</a></span>
+        <div>
+            <ul id=errorItems></ul>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+    function check(obj) {
+        var checkname = obj.name;
+        var s = $('input[name=' + checkname + ']:checked').length;
+        if (s == null || s == undefined || s == 0)
+            s = '';
+        $("#" + checkname + '_check').attr("value", s);
+    }
+
+
+    function request(paras) {
+
+        var url = location.href;
+
+        var paraString = url.substring(url.indexOf("?") + 1, url.length).split("&");
+        var paraObj = {}
+
+        for (i = 0; j = paraString[i]; i++) {
+
+            paraObj[j.substring(0, j.indexOf("=")).toLowerCase()] = j.substring(j.indexOf("=") + 1, j.length);
+        }
+        var returnValue = paraObj[paras.toLowerCase()];
+        if (typeof(returnValue) == "undefined") {
+            return "";
+        } else {
+            return returnValue;
+        }
+    }
+    var udbUser_source = request("udbUser_source");
+    document.form1.udbUser_source.value = udbUser_source;
+
+
+    //        为其他栏  添加require
+    function change(obj) {
+        var reg = /[1-9]/
+        if (obj.checked) {
+            var num = obj.name.match(reg)
+            obj.nextElementSibling.setAttribute('datatype', "Require")
+            obj.nextElementSibling.setAttribute('msg', num + '.请填写其他')
+        }
+
+    }
+    function qiweichange(value) {
+        var it=document.getElementsByClassName('it'),yewu=document.getElementsByClassName('yewu');
+        switch (value) {
+            case'IT部门':for(var i=0;i<it.length;i++){
+              it[i].style.display='block';
+            }
+                for(var j=0;j<yewu.length;j++){
+                    yewu[j].style.display='none';
+                };break;
+
+            case'业务部门':for(var i=0;i<it.length;i++){
+                it[i].style.display='none';
+            }
+                for(var j=0;j<yewu.length;j++){
+                    yewu[j].style.display='block';
+                };break;
+
+
+
+        }
+    }
+
+</script>
+</html>

@@ -1,0 +1,95 @@
+
+<!-- 统计 -->
+    <!--#include virtual="/w/i/cb/az.html" -->
+
+
+<!--头部导航-->
+<!--#include virtual="/w/x/qyz/header.html" -->
+
+
+/*header*/
+#header {
+  width: 100%;
+  height: 37px;
+  line-height: 37px;
+  background-color: #2D3237;
+  font-size: 12px;
+}
+#header .box {
+  width: 1100px;
+  margin: 0 auto;
+}
+#header .box ul {
+  float: left;
+}
+#header .box p {
+  float: right;
+  color: #ffffff;
+}
+#header .box ul li {
+  float: left;
+  color: #ffffff;
+  margin-right: 30px;
+}
+.colorEB2634 {
+  color: #EB2634;
+}
+#header a {
+  color: #ffffff;
+}
+#header .box p span:first-child {
+  margin-right: 30px;
+}
+#header .box p span:first-child a {
+  color: #EB2634;
+}
+/*header end*/
+
+
+
+
+<!--floor-->
+<div id="floor">
+  <div class="nt">
+    <a rel="nofollow" href="http://www.tianjimedia.com/chinabyte/">关于我们</a> | <a rel="nofollow"
+                                                                                 href="http://www.tianjimedia.com/english/31/8262031.shtml">About
+    us</a> | <a rel="nofollow" href="http://www.tianjimedia.com/attorney/">网站律师</a> | <a rel="nofollow"
+                                                                                         href="http://www.tianjimedia.com/ar/">天极服务</a>
+    | <a href="http://hot.chinabyte.com/">热点新闻</a> | <a href="http://maillist.chinabyte.com/">电子杂志</a> | <a
+    href="http://rss.chinabyte.com/">RSS订阅</a> | <a rel="nofollow"
+                                                    href="http://www.tianjimedia.com/invitation/">加入我们</a> |
+    <a rel="nofollow" href="http://www.tianjimedia.com/tjdt/list/">天极动态</a> | <a
+    href="http://www.chinabyte.com/sitemap.html">网站地图</a> | <a rel="nofollow"
+                                                               href="http://passport.chinabyte.com/login.jsp?auto=1&amp;returnurl=http://bbs.chinabyte.com/">网友上传</a>
+  </div>
+  <div id="CopyRight">Copyright &#169; 1997-2014 Chinabyte.com, All Rights Reserved 版权所有 天极网络</div>
+</div>
+
+/*footer*/
+#floor {
+  line-height: 50px;
+  padding: 30px 0;
+  text-align: center;
+  color: #fff;
+  background: #dde8f3;
+}
+#floor a {
+  font-size: 16px;
+  margin: 0 5px;
+  color: #333e49;
+}
+#floor .nt {
+  height: 45px;
+  line-height: 45px;
+  color: #333e49;
+}
+#CopyRight {
+  font-size: 16px;
+  padding-top: 10px;
+  color: #333e49;
+}
+/*footer end*/
+
+
+
+

@@ -1,0 +1,216 @@
+
+body{
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+}
+select{
+    font-size: 13px
+}
+.content {
+    margin: 57px auto 0;
+    width: 700px;
+    min-height: 275px;
+    background: #fff;
+    position: relative;
+}
+
+.content .top-color {
+    background: #384656;
+    height: 44px;
+}
+
+.content .top-description {
+    width: 640px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.content .top-description h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(56, 70, 86);
+    padding: 25px 0 10px 0;
+}
+
+.content .top-description p {
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.content .border {
+    border-bottom: 1px solid #c3c9d0;
+    height: 1px;
+    margin: 18px 0;
+}
+
+.form-wrap {
+    padding-bottom: 50px;
+}
+
+.form-wrap #regbox {
+    margin: 0 auto;
+
+}
+
+.form-wrap #regbox label {
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.form-wrap #regbox h2 {
+    font-size: 14px;
+    color: rgb(73, 80, 91);
+    margin-bottom: 10px;
+}
+
+.red {
+    color: #f00;
+    padding-right: 10px;
+}
+
+.no-implement, .implement {
+    display: none;
+}
+
+.floatMessage {
+    z-index: 119999;
+    overflow: hidden;
+    width: 340px;
+    padding: 7px 22px 0 22px;
+    float: right;
+    position: fixed;
+    background: #444;
+    border: 1px solid #444;
+    display: none;
+}
+
+.floatMessage div {
+    width: 300px;
+    padding: 20px 15px;
+    margin: 5px 10px 10px 10px;
+    display: inline;
+    background: #FFF;
+    border: 1px solid #ccc;
+    float: left
+}
+
+.floatMessage ul {
+    width: 280px;
+    margin: 0;
+    float: left;
+}
+
+.floatMessage li {
+    width: 280px;
+    line-height: 22px;
+    color: red;
+    float: left;
+    list-style-type: none;
+    list-style: none;
+    cursor: hand;
+    font-size: 14px
+}
+
+.regtab span {
+    color: #ff0000;
+    font-weight: 700
+}
+
+.regtab td {
+    height: 35px;
+}
+
+.regtab .input-text {
+    text-indent: 0em;
+    width: 235px;
+    height: 20px;
+    border: solid 1px #009bde;
+}
+
+.stxt {
+    font-size: 24px;
+    color: #229AF9
+}
+
+.footer {
+    margin: 0 auto;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 10px;
+}
+.success-img {
+    display: block;
+    margin: 20px auto 0;
+    text-align: center;
+}
+.content .top-description p.success-text{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top:10px;
+    text-align: center;
+    color: #76b006;
+}
+.h_title{
+    font-size: 14px;
+}
+.t-tit{
+    padding-left: 200px;
+}
+#errorItems{
+    margin-left: -30px;
+}
+.sub{
+    border-radius: 10px;
+    background-color: #229AF9;
+    margin: 10px;
+    border: none;
+    font-family: "Microsoft YaHei";
+    font-size: 24px;
+    font-weight: bold;
+    height: 50px;
+    border-bottom: 5px solid #167BE6;
+    width: 150px;
+    cursor: pointer;
+    color: #fff;
+}
+.p-indent{
+    text-indent:2em;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: justify;
+    margin: 0
+}
+.p-tit{
+    text-align: center;
+    font-size: 24px;
+}
+.t-tit1{
+    padding-left:140px;
+}
+.t-tit2{
+    padding-right: 200px;
+}
+.t-tit3{
+    padding-right: 200px;
+    line-height:20px;
+
+}
+.t-tit5 label{
+    margin-right: 20px;
+    margin-top:10px;
+    display: inline-block;
+}
+.t-tit2 label{
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.t-tit6 label{
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+

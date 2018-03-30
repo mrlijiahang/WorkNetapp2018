@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="GB2312">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+</head>
+
+<body>
+    <!--头部导航-->
+    <!--#include virtual="/w/x/qyz/header.html" -->
+
+
+    <div class="banner"></div>
+    <div class="container">
+        <div class="top">
+            <h3 style="color: white;line-height: 58px;margin-left: 105px;margin-top: 25px;">漫步数据时代 ——— 全闪显神威</h3>
+        </div>
+        <div class="middle">
+
+            <p style="padding-top: 31px;padding-left: 85px;padding-right: 85px;">
+                <span style="font-size: 17px">引言: </span>
+                <span style="font-size: 17px;">身处互联网+大数据时代背景下的你，是否在构建数据存储过程中遇到了各种各样的问题？存储容量不够？机房空间不足？....没关系， NetApp闪存解决方案来帮你减压解惑了！就在这里，别再犹豫！</span>
+            </p>
+            <div class="middlebottom">
+                <div class="mainpeople">
+                    <div style="float: left;">
+                        <div style="border: 1px solid gray;margin-top: 50px">
+                            <div style="background-image: url(images/title.jpg);height: 59px;width: 368px;">
+                                <p style="color: white;line-height: 59px;font-size: 20px;padding-left: 15px;"> 主要人物 ： CIO崔总</p>
+                            </div>
+                            <div style="width: 366px;">
+                                <p style="text-align: justify;padding-left: 15px;padding-right: 15px;text-indent: 40px;padding-top: 25px;font-size: 15px;padding-bottom: 24px;padding-top: 24px;">崔总非常重视新技术。2013年，公司全面上线EAM、CRM等企业资产管理、自动化软件解决方案，使维修材料成本、能源消耗成本、保修成本都极速下降，感受到信息自动化带来“大成效”的崔总，于2015年关注了“上云”，出乎预料，他发现上云的困难不是一丁半点，数据量暴增，存储备份困难，运维管理难已经成为他必然要解决的问题，即使过了一年，崔总也没找到合适的解决方案。这不，近日，崔总在了解了NetApp之后，发现他所有面临的问题，就要迎刃而解了！</p>
+                            </div>
+                        </div>
+
+                        <div class="blBox">
+                            <!-- 1 -->
+                            <div class="bl">
+                                <div style="background-image: url(images/title.jpg);height: 59px;width: 368px;">
+                                    <p style="color: white;line-height: 59px;font-size: 20px;padding-left: 15px;"> 漫画一</p>
+                                </div>
+                                <div style="width: 366px;height: 206px;">
+                                    <p style="text-align: justify;padding-left: 15px;padding-right: 15px;font-size: 20px;margin-top: 30px;">业务剧增，数据量增加，快速存储难？ </p>
+                                    <p style="text-align: justify;padding-left: 15px;padding-right: 15px;text-indent: 40px;margin-top: 20px;font-size: 15px">
+                                        毫无疑问，大数据对企业而言是重中之重，快速、可靠、一致地访问关键数据，实现快速全面的数据存储，才能创造一个新的经济领域。
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- 2 -->
+                            <div class="bl none">
+                                <div style="background-image: url(images/title.jpg);height: 59px;width: 368px;">
+                                    <p style="color: white;line-height: 59px;font-size: 20px;padding-left: 15px;"> 漫画二</p>
+                                </div>
+                                <div style="width: 366px;height: 206px;">
+                                    <p style="text-align: justify;padding-left: 15px;padding-right: 15px;font-size: 20px;margin-top: 30px;">管理数据难，运维响应速度慢？ </p>
+                                    <p style="text-align: justify;padding-left: 15px;padding-right: 15px;text-indent: 40px;margin-top: 20px;font-size: 15px">
+                                        今天，几乎每个企业面临激烈的市场竞争，都希望能够以更少人员，费用和时间，存储更多数据。运维人员能够方便快捷的整合基础设施，是降低成本和提高生产率的有效手段，进而帮助企业节约资金和提高效率。
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- 3 -->
+                            <div class="bl none">
+                                <div style="background-image: url(images/title.jpg);height: 59px;width: 368px;">
+                                    <p style="color: white;line-height: 59px;font-size: 20px;padding-left: 15px;"> 漫画三</p>
+                                </div>
+                                <div style="width: 366px;height: 206px;">
+                                    <p style="text-align: justify;padding-left: 15px;padding-right: 15px;font-size: 20px;margin-top: 30px;">要安全，快速还要能够多元化满足客户空间需求？ </p>
+                                    <p style="text-align: justify;padding-left: 15px;padding-right: 15px;text-indent: 40px;margin-top: 9px;font-size: 15px">
+                                        如何才能根据洞察到的实时信息，快速做出决策，释放高要求应用的潜力； 如何才能保证安全的前提下，满足客户多元化需求，能够使企业核心业务，分析数据库、虚拟桌面基础设施、技术计算应用和云环境应用数据，全部有效快速的存储， 是很多企业面临的关键问题。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="manhua" style="float: left;width: 630px;height: 696px;margin-left: 25px;">
+                        <div class='m1 m1now cursor'>漫画一</div>
+                        <div class='m1 cursor'>漫画二</div>
+                        <div class='m1 cursor'>漫画三</div>
+                        <div class="bgtu">
+                            <div style="border: 1px solid gray;width: 100%;height:645px;margin-top: 50px">
+                                <div style="background-image: url(images/bg.jpg);
+                                        width: 310px;height: 30px;text-align: center;
+                                        line-height: 30px;color: white;
+                                        margin: 0 auto;margin-top: 50px;">场景一</div>
+                                <div>
+                                    <p style="font-size: 21px;color: rgb(1,108, 186);text-align: center;margin-top: 20px;">业务剧增，数据量增加，快速储存难？</p>
+                                </div>
+                                <div style="text-align: center">
+                                    <img src="images/c1.jpg" width='481px' height="405px" alt="">
+                                </div>
+                                <div style="margin: 0 auto;margin-top: 15px;width: 481px;height: 58px;border-radius: 20px;border: 1px solid blue">
+                                    <div style="width: 40%;background-color: rgb(1,108, 186);height: 100%;float: left;    border-top-left-radius: 20px;
+                                            border-bottom-left-radius: 20px;text-align: center;line-height: 53px;color: white;cursor: pointer">NetApp支招</div>
+                                    <div style="width: 60%;background-color: white;height: 100%;float: right;border-bottom-right-radius: 20px;
+                                            border-top-right-radius: 20px;text-align: center;color:rgb(1,108, 186);line-height: 53px;">技术白皮书固态存储新前言</div>
+                                </div>
+
+                            </div>
+                            <div class="none" style="border: 1px solid gray;width: 100%;height:645px;margin-top: 50px">
+                                <div style="background-image: url(images/bg.jpg);
+                                            width: 310px;height: 30px;text-align: center;
+                                            line-height: 30px;color: white;
+                                            margin: 0 auto;margin-top: 50px;">场景2</div>
+                                <div>
+                                    <p style="font-size: 21px;color: rgb(1,108, 186);text-align: center;margin-top: 20px;">管理数据难，运维响应速度慢？</p>
+                                </div>
+                                <div style="text-align: center">
+                                    <img src="images/c2.jpg" width='481px' height="405px" alt="">
+                                </div>
+                                <div style="margin: 0 auto;margin-top: 15px;width: 481px;height: 58px;border-radius: 20px;border: 1px solid blue">
+                                    <div style="width: 40%;background-color: rgb(1,108, 186);height: 100%;float: left;    border-top-left-radius: 20px;
+                                                border-bottom-left-radius: 20px;text-align: center;line-height: 53px;color: white;cursor: pointer;">NetApp支招</div>
+                                    <div style="width: 60%;background-color: white;height: 100%;float: right;border-bottom-right-radius: 20px;
+                                                border-top-right-radius: 20px;text-align: center;color:rgb(1,108, 186);line-height: 53px;">
+                                        打造现代化SAN不可不知的重要3件事</div>
+                                </div>
+
+                            </div>
+                            <div class="none" style="border: 1px solid gray;width: 100%;height:645px;margin-top: 50px">
+                                <div style="background-image: url(images/bg.jpg);
+                                                width: 310px;height: 30px;text-align: center;
+                                                line-height: 30px;color: white;
+                                                margin: 0 auto;margin-top: 30px;">场景3</div>
+                                <div>
+                                    <p style="font-size: 21px;color: rgb(1,108, 186);text-align: center;margin-top: 20px;">要安全，快速还要能够多元化
+                                        <br> 满足客户空间需求？</p>
+                                </div>
+                                <div style="text-align: center">
+                                    <img src="images/c3.jpg" width='481px' height="405px" alt="">
+                                </div>
+                                <div style="margin: 0 auto;margin-top: 15px;width: 481px;height: 58px;border-radius: 20px;border: 1px solid blue">
+                                    <div style="width: 40%;background-color: rgb(1,108, 186);height: 100%;float: left;    border-top-left-radius: 20px;
+                                                    border-bottom-left-radius: 20px;text-align: center;line-height: 53px;color: white;cursor: pointer">NetApp支招</div>
+                                    <div style="width: 60%;background-color: white;height: 100%;float: right;border-bottom-right-radius: 20px;
+                                                    border-top-right-radius: 20px;text-align: center;color:rgb(1,108, 186);padding-top: 5px;">利用NetApp技术，
+                                        <br> 让基础架构做好数据准备</div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+        </div>
+        <div class="top">
+            <h3 style="color: white;line-height: 58px;margin-left: 105px;margin-top: 75px">大话闪存 ——— 挖掘价值数据之道</h3>
+        </div>
+        <div style="border: 1px solid white;width: 96%;height: 390px;margin-left: 27px;margin-right:27px;margin-top: 50px; ">
+            <div style="margin-left: 30px;font-size:20px;width: 148px;height: 35px;float: left;text-align: center;color: #fff ;" class="video1 v1now cursor">视频一</div>
+            <div style="font-size:20px;width: 148px;height: 35px;float: left;text-align: center;color: white" class="video2 v2 cursor">视频二</div>
+            <div style="border :1px solid black;width: 100%;height: 355px;margin-top:36px;display: block " class="video1show">
+                <div style="width: 600px; height: 100%;float: left;">
+                    <video width="600px " height="100%" src="http://www.chinabyte.com/w/n/yanghao/video/NetApp 数据成就者，颠覆行业发展格局 刘志强_H264高清_720x480.MP4"
+                        controls style="object-fit: fill"></video>
+
+                </div>
+                <div style="height: 100%;width: 452px;float: right; padding-top: 20px;padding-left: 35px;padding-right: 35px;">
+                    <p style="font-size: 21px;font-weight: 600">NetApp数据成就者，颠覆行业发展格局</p>
+                    <p style="position: relative;left: 250px;margin-top: 5px;font-size: 20px;">——刘志强</p>
+                    <p style="font-size: 16px;text-align: justify;margin-top: 20px;line-height: 30px;">数据成就者（Data Thriver）在赢得新客户、提高员工工作效率和提升盈利能力方面，取得的成绩可达到其他企业的三倍。利用数据来推动业务并且以全新的独创方式满足客户需求的企业才刚刚开始颠覆市场。NetApp如何在数字化转型的浪潮中做数据成就者，如何帮助客户释放数据潜能？敬请点击观看。
+                    </p>
+
+                </div>
+            </div>
+            <div style="border :1px solid black;width: 100%;height: 355px;margin-top:36px;display: none; " class="video2show">
+                <div style="width: 600px; height: 100%;float: left;">
+                    <video style="object-fit: fill" width="600px" height="100%" controls src="http://www.chinabyte.com/w/n/yanghao/video/NetApp 注入业务发展新动力 程远_H264高清_720x480.MP4"></video>
+
+
+
+                </div>
+                <div style="height: 100%;width: 452px;float: right; padding-top: 20px;padding-left: 35px;padding-right: 35px;">
+                    <p style="font-size: 21px;font-weight: 600">Netapp注入业务发展新动力</p>
+                    <p style="position: relative;left: 250px;margin-top: 5px;font-size: 20px;">——程远</p>
+                    <p style="font-size: 16px;text-align: justify;margin-top: 20px;line-height: 30px;">“数据化创新”、“数据交互”和“数据价值”是今天，IT向DT转变之时，企业客户期待实现的最核心关键词。数据的价值不在于存储而是如何转化为价值，于是，“转型”不仅是老牌企业必谈之经，也称为新型企业面临的一大挑战。NetApp究竟如何帮助企业注入新动力？如何帮助提高企业业务能量？敬请点击观看。
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="top">
+            <h3 style="color: white;line-height: 58px;margin-left: 105px;margin-top: 75px">云中寻看点 ——— 直击客户创新方案</h3>
+        </div>
+        <div style="width: 96%;margin-left: 27px;margin-right:27px;margin-top: 50px; " class="clearfix">
+            <div>
+                <div style="width: 520px;height: 140px;float: left;">
+                    <div style="float: left;">
+                        <img src="images/n1.jpg" height="138px;" alt="">
+                    </div>
+
+                    <div style="height: 136px; border: 1px solid rgb(1,108, 186);width: 290px;float: right;text-align: center;padding-top: 11px;">
+                        <p style="font-size: 18px;font-weight: 600">超大规模私有云助力</p>
+                        <p style="font-size: 18px;font-weight: 600">全球第一大卡组织</p>
+                        <p>中国银联迎接未来挑战</p>
+                        <a href="http://www.chinabyte.com/w/n/ljh/Netapp2018/reg.shtml" target="_blank">
+                            <img src="images/down.png" class='down' alt="">
+                        </a>
+                    </div>
+                </div>
+                <div style="width: 520px;height: 140px;float: right;">
+                    <div style="float: left;">
+                        <img src="images/n2.jpg" height="138px;" alt="">
+                    </div>
+
+                    <div style="height: 136px; border: 1px solid rgb(1,108, 186);width: 290px;float: right;padding-top: 11px;text-align: center;">
+                        <p style="font-size: 18px;font-weight: 600;margin-top: 18px">NetApp 全闪存阵列助力拍拍贷
+                            <br> 应对网贷市场新挑战</p>
+
+                        <a href="http://www.chinabyte.com/w/n/ljh/Netapp2018/reg.shtml" target="_blank">
+                            <img src="images/down.png" class='down' alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 20px;">
+                <div style="width: 520px;height: 140px;float: left;">
+                    <div style="float: left;">
+                        <img src="images/n3.jpg" height="138px;" alt="">
+                    </div>
+
+                    <div style="height: 136px; border: 1px solid rgb(1,108, 186);width: 290px;float: right;padding-top: 11px;text-align: center;">
+                        <p style="font-size: 18px;font-weight: 600;margin-top: 18px;">NetApp 携手中国平安
+                            <br> 打造互联网金融新未来</p>
+
+                        <a href="http://www.chinabyte.com/w/n/ljh/Netapp2018/reg.shtml" target="_blank">
+                            <img src="images/down.png" class='down' alt="">
+                        </a>
+                    </div>
+                </div>
+                <div style="width: 520px;height: 140px;float: right;">
+                    <div style="float: left;">
+                        <img src="images/n4.jpg" height="138px;" alt="">
+                    </div>
+
+                    <div style="height: 136px; border: 1px solid rgb(1,108, 186);width: 290px;float: right;padding-top: 11px;text-align: center;">
+                        <p style="font-size: 18px;font-weight: 600;margin-top: 18px;">上海外服云利用闪存加快新HR
+                            <br> 服务的上市速度</p>
+
+                        <a href="http://www.chinabyte.com/w/n/ljh/Netapp2018/reg.shtml" target="_blank">
+                            <img src="images/down.png" class='down' alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 20px;">
+                <div style="width: 520px;height: 140px;float: left;">
+                    <div style="float: left;">
+                        <img src="images/n5.jpg" height="138px;" alt="">
+                    </div>
+
+                    <div style="height: 136px; border: 1px solid rgb(1,108, 186);width: 290px;float: right;padding-top: 11px;text-align: center;">
+                        <p style="font-size: 18px;font-weight: 600;margin-top: 4px">世纪互联利用 NetApp
+                            <br> 解决方案 实现
+                            <br> 混合云数据管理 服务突破性创新
+                        </p>
+                        <a href="http://www.chinabyte.com/w/n/ljh/Netapp2018/reg.shtml" target="_blank">
+                            <img src="images/down.png" class='down' alt="">
+                        </a>
+                    </div>
+                </div>
+                <div style="width: 520px;height: 140px;float: right;">
+                    <div style="float: left;">
+                        <img src="images/n6.jpg" height="138px;" alt="">
+                    </div>
+
+                    <div style="height: 136px; border: 1px solid rgb(1,108, 186);width: 290px;float: right;padding-top: 11px;text-align: center;">
+                        <p style="font-size: 18px;font-weight: 600;margin-top: 21px;">同样做IDC，可你看看
+                            <br> 人家天楚云</p>
+
+                        <a href="http://www.chinabyte.com/w/n/ljh/Netapp2018/reg.shtml" target="_blank">
+                            <img src="images/down.png" class='down' alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--floor-->
+    <div id="floor">
+        <div class="nt">
+            <a rel="nofollow" href="http://www.tianjimedia.com/chinabyte/">关于我们</a> |
+            <a rel="nofollow" href="http://www.tianjimedia.com/english/31/8262031.shtml">About us
+            </a> |
+            <a rel="nofollow" href="http://www.tianjimedia.com/attorney/">网站律师</a> |
+            <a rel="nofollow" href="http://www.tianjimedia.com/ar/">天极服务</a>
+            |
+            <a href="http://hot.chinabyte.com/">热点新闻</a> |
+            <a href="http://maillist.chinabyte.com/">电子杂志</a> |
+            <a href="http://rss.chinabyte.com/">RSS订阅</a> |
+            <a rel="nofollow" href="http://www.tianjimedia.com/invitation/">加入我们</a> |
+            <a rel="nofollow" href="http://www.tianjimedia.com/tjdt/list/">天极动态</a> |
+            <a href="http://www.chinabyte.com/sitemap.html">网站地图</a> |
+            <a rel="nofollow" href="http://passport.chinabyte.com/login.jsp?auto=1&amp;returnurl=http://bbs.chinabyte.com/">网友上传</a>
+        </div>
+        <div id="CopyRight">Copyright &#169; 1997-2014 Chinabyte.com, All Rights Reserved 版权所有 天极网络</div>
+    </div>
+    <!-- 统计 -->
+    <!--#include virtual="/w/i/cb/az.html" -->
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+<script type="text/javascript" src="./js/index.js"></script>
+
+
+
+</html>

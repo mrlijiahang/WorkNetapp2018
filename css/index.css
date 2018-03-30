@@ -1,0 +1,172 @@
+/*header*/
+
+#header {
+  width: 100%;
+  height: 37px;
+  line-height: 37px;
+  background-color: #2d3237;
+  font-size: 12px;
+}
+
+#header .box {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+#header .box ul {
+  float: left;
+}
+
+#header .box p {
+  float: right;
+  color: #ffffff;
+}
+
+#header .box ul li {
+  float: left;
+  color: #ffffff;
+  margin-right: 30px;
+}
+
+.colorEB2634 {
+  color: #eb2634;
+}
+
+#header a {
+  color: #ffffff;
+}
+
+#header .box p span:first-child {
+  margin-right: 30px;
+}
+
+#header .box p span:first-child a {
+  color: #eb2634;
+}
+
+/*header end*/
+
+/*footer*/
+
+#floor {
+  line-height: 50px;
+  padding: 30px 0;
+  text-align: center;
+  color: #fff;
+  background: #f7f7f7;
+  margin-top: 70px;
+}
+
+#floor a {
+  font-size: 16px;
+  margin: 0 5px;
+  color: #333e49;
+}
+
+#floor .nt {
+  height: 45px;
+  line-height: 45px;
+  color: #333e49;
+}
+
+#CopyRight {
+  font-size: 16px;
+  padding-top: 10px;
+  color: #333e49;
+}
+
+/*footer end*/
+
+.down {
+  margin-top: 5px;
+}
+
+.v1 {
+  background-image: url(../images/videoleft.png);
+}
+
+.v1now {
+  background-image: url(../images/videokleft.png);
+}
+
+.v2 {
+  background-image: url(../images/videoright.png);
+}
+
+.v2now {
+  background-image: url(../images/videokright.png);
+}
+
+.m1 {
+  background-image: url(../images/notok.jpg);
+  width: 126px;
+  height: 50px;
+  float: left;
+  text-align: center;
+  margin-left: 10px;
+  line-height: 60px;
+  font-size: 20px;
+  color: white;
+}
+.banner {
+  background-image: url('../images/banner2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 281px;
+}
+
+.top {
+  background-image: url('../images/top.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 58px;
+}
+
+.middle {
+  border: 1px solid gray;
+  width: 100%;
+  height: 870px;
+  margin-top: 37px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.middlebottom {
+  width: 93%;
+  height: 700px;
+  /* border: 1px solid gray; */
+  margin: 0 auto;
+  margin-top: 48px;
+}
+
+.clearfix ::after,
+clearfix ::before {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: ' ';
+  clear: both;
+  height: 0;
+}
+
+.m1now {
+  background-image: url(../images/ok.png);
+}
+
+.blBox {
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+.none {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
